@@ -1,6 +1,6 @@
 package cse360assignment01
 
-public class AddingMachine()
+public class AddingMachine
 {
    private int total;
    private String history;
