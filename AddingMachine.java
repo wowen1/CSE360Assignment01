@@ -1,4 +1,4 @@
-package cse360assignment01
+package cse360assignment01;
 
 public class AddingMachine
 {
@@ -8,32 +8,34 @@ public class AddingMachine
    public AddingMachine()
    {
       total = 0;
-      history = "";
+      history = "0";
    }
    
-   public getTotal()
+   public int getTotal()//returns the total.
    {
-      return 0;
+      return total;
    }
    
-   public void add(int value)
+   public void add(int value) //adds the value to total
    {
-   
+      total = total + value;
+      history = history + " + " + value;
    }
    
-   public void subtract(int value)
+   public void subtract(int value) //subtracts the value from total
    {
-   
+      total = total - value;
+      history = history + " - " + value;
    }
    
-   public String toString()
+   public String toString() //returns the history
    {
-      return "";   
+      return history; 
    }      
    
-   public void clear()
+   public void clear() //clears history
    {
-   
+      history = "";
    }
 
 }   
