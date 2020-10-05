@@ -1,6 +1,3 @@
-import java.io.*;
-import java.util.Scanner;
-
 package cse360assignment01
 
 public class AddingMachine()
